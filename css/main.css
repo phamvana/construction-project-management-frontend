@@ -62,9 +62,7 @@ body {
     display: block;
     
 }
-#sidebar.active .sidebar-header h3{
-    display: none; /* Giữ nguyên chiều rộng khi active */
-}
+
 /* Main content */
 #main-content {
     padding: 15px;
@@ -96,6 +94,9 @@ body {
     }
     #sidebar.active {
         width: 80px; /* giữ nguyên chiều rộng khi active */
+    }
+    #sidebar.active .sidebar-header h3{
+        display: none; /* Giữ nguyên chiều rộng khi active */
     }
     #sidebar.active .sidebar-menu li a span {
         display: none; /* Ẩn text khi active */
