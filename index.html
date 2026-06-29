@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý dự án xây dựng</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main-desktop.css">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div id="sidebar" class="active">
+            <div class="sidebar-header" id="sidebar-title">
+                <h3 class="logo">
+                    <i class="bi bi-building"></i>
+                    <span>Projects</span>
+                </h3>
+                <h2><i class="bi bi-list"></i></h2>
+            </div>
+            <ul class="sidebar-menu">
+                <li class="menu-item active" data-page="dashboard.html">
+                    <a href="#">
+                        <i class="bi bi-house"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="menu-item" data-page="projects.html">
+                    <a href="#">
+                        <i class="bi bi-folder"></i>
+                        <span>Dự án</span>
+                    </a>
+                </li>
+                <li class="menu-item" data-page="tasks.html">
+                    <a href="#">
+                        <i class="bi bi-list-task"></i>
+                        <span>Công việc</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="main-content"></div>
+    </div>
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
