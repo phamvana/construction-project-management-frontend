@@ -24,7 +24,7 @@ Dự án **Frontend Quản lý Dự án Xây dựng** được xây dựng bằn
 ## 🎯 Demo
 
 🔗 **Live Demo (GitHub Pages):**
-https://your-username.github.io/construction-project-management-frontend/
+https://phamvana.github.io/construction-project-management-frontend/
 
 📸 **Screenshot:**
 
@@ -80,7 +80,7 @@ project-management-frontend/
 ### 1. Clone project
 
 ```bash
-git clone https://github.com/your-username/construction-project-management-frontend.git
+git clone https://github.com/phamvana/construction-project-management-frontend.git
 ```
 
 ### 2. Mở project
@@ -106,7 +106,7 @@ hoặc dùng Live Server (VS Code)
 👉 Truy cập:
 
 ```
-https://your-username.github.io/construction-project-management-frontend/
+https://phamvana.github.io/construction-project-management-frontend/
 ```
 
 ---
