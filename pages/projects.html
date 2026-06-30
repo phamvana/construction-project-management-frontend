@@ -1,0 +1,59 @@
+
+    <div class="projects-page">
+        <h2>Quản lý Dự án</h2>
+
+    
+    <!-- FORM -->
+    <div class="card">
+        <h3>Thêm / Sửa dự án</h3>
+        <input type="hidden" id="projectId">
+        <input type="text" id="projectName" placeholder="Tên dự án">
+        <input type="text" id="projectOwner" placeholder="Chủ đầu tư">
+        <input type="date" id="startDate">
+        <input type="date" id="endDate">
+        <button onclick="saveProject()">Lưu</button>
+    </div>
+
+    <!-- LIST -->
+    <div class="card">
+        <h3>Danh sách dự án</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tên</th>
+                    <th>Chủ đầu tư</th>
+                    <th>Thời gian</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody id="projectTable"></tbody>
+        </table>
+    </div>
+
+    <!-- DETAIL -->
+    <div id="projectDetail" style="display:none;">
+        <h3>Chi tiết dự án</h3>
+
+        <!-- Tabs -->
+        <div class="tabs">
+            <button onclick="showTab('packages')">Gói thầu</button>
+            <button onclick="showTab('costs')">Chi phí</button>
+            <button onclick="showTab('docs')">Văn bản</button>
+            <button onclick="showTab('progress')">Tiến độ</button>
+        </div>
+
+        <!-- Gói thầu -->
+        <div id="packages" class="tab-content"></div>
+
+        <!-- Chi phí -->
+        <div id="costs" class="tab-content"></div>
+
+        <!-- Văn bản -->
+        <div id="docs" class="tab-content"></div>
+
+        <!-- Tiến độ -->
+        <div id="progress" class="tab-content"></div>
+    </div>
+    
+
+    </div>

@@ -68,6 +68,21 @@ body {
     padding: 15px;
 }
 
+.card {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.tabs button {
+    margin-right: 5px;
+}
+
+.tab-content {
+    margin-top: 10px;
+}
+
 /* ========================
    TABLET
 ======================== */
@@ -105,4 +120,6 @@ body {
         margin-right: 0; /* Giữ icon ở giữa */
         font-size: larger;
     }
+
+    
 }
